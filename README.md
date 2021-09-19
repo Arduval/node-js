@@ -1,0 +1,1 @@
+This repo was created for the purpose of storing my practical project(s). My goal is to deepen my knowledge of high-level technical languages (i.e. Javascript) and webdesign. The main tool I have chosen is Node-js. Possible, additional functions will be made in C/C++, Assembly. 
