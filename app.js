@@ -4,15 +4,25 @@ function insertText()
     return "Hello World";
 }
 
-//counts 15 iterations, then displays the output of feeded function
-function countdown(text)
+//academical, should hook to a working <input> device
+function insertDelay()
 {
-    a = text();
-    for (var x=15;x>0;--x)
+    return 15;
+}
+
+//counts decimal, unsigned (delay) iterations, then displays the output of the feeded function
+function countdown(delay, text)
+{
+    var x = delay();
+    var returnedValue = text();
+
+    while (x > 0)
     {
         console.log('Text in', x ,'interations.');
-    }
-    console.log(a);
+        --x;
+    };
+
+    console.log(returnedValue);
 };
 
-countdown(insertText);
+countdown(insertDelay, insertText);
