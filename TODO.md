@@ -1,2 +1,2 @@
-- Sanitise inputs in app.js, function insertDelay, insertText.
+- Sanitise inputs in app.js; function insertDelay, insertText.
 - better way of storing values returned by insertDelay, insertText.
