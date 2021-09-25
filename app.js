@@ -1,18 +1,15 @@
 //academical, should hook to a working <input> device
-function insertText()
-{
+function insertText(){
     return "Hello World";
 }
 
 //academical, should hook to a working <input> device
-function insertDelay()
-{
+function insertDelay(){
     return 15;
 }
 
 //counts decimal, unsigned (delay) iterations, then displays the output of the feeded function
-function countdown(delay, text)
-{
+function countdown(delay, text){
     var x = delay();
     var returnedValue = text();
 
