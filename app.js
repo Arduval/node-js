@@ -13,8 +13,7 @@ function countdown(delay, text){
     var x = delay();
     var returnedValue = text();
 
-    while (x > 0)
-    {
+    while (x > 0){
         console.log('Text in', x ,'interations.');
         --x;
     };
