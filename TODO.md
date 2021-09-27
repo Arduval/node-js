@@ -1,2 +1,2 @@
-- Sanitise inputs in app.js; function insertDelay, insertText.
-- better way of storing values returned by insertDelay, insertText.
+- Sanitise inputs in inputFunctions.js; function readDecimal, readText.
+- make the inputFunctions.js "intelligent" by making it export only the requested functions.

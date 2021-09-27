@@ -1,17 +1,10 @@
-//academical, should hook to a working <input> device
-function insertText(){
-    return "Hello World";
-}
+//fetches functions from inputFunctions library
+var inputFunctions = require('./inputFunctions');
 
-//academical, should hook to a working <input> device
-function insertDelay(){
-    return 15;
-}
-
-//counts decimal, unsigned (delay) iterations, then displays the output of the feeded function
-function countdown(delay, text){
-    var x = delay();
-    var returnedValue = text();
+//counts decimal, unsigned amount of iterations, then displays the output of the readText function
+function countdown(){
+    var x = inputFunctions.readDecimal();
+    var returnedValue = inputFunctions.readText();
 
     while (x > 0){
         console.log('Text in', x ,'interations.');
@@ -21,4 +14,4 @@ function countdown(delay, text){
     console.log(returnedValue);
 };
 
-countdown(insertDelay, insertText);
+countdown();
