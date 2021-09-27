@@ -5,12 +5,12 @@ var exportList = {
 };
 
 //academical, should hook to a working <input> device
-function readText(){
-    return "Hello World";
+function readText() {
+    return "I often dream of nights I'd sit, and watch the rising sun";
 }
 
 //academical, should hook to a working <input> device
-function readDecimal(){
+function readDecimal() {
     return 15;
 }
 
